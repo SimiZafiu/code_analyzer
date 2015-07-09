@@ -1,0 +1,7 @@
+#############################################################################
+# Xdebug
+#############################################################################
+#php_value xdebug.profiler_enable 1
+#php_value xdebug.auto_trace On
+php_value   auto_prepend_file  "prepend.php"
+php_value   auto_append_file  "append.php"
